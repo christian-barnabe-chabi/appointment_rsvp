@@ -2,7 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Lib\View;
+use App\Utils\BaseController;
+use App\Utils\View;
 
 class ServiceController extends BaseController {
 

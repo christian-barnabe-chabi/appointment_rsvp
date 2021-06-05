@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Utils;
 
-use App\Lib\Request;
+use App\Utils\Request;
 
 abstract class BaseController {
   protected $request;

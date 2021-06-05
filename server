@@ -1,7 +1,7 @@
 <?php
 
 if(isset($argv[1]) && $argv[1] == 'start') {
-  exec('php -S 127.0.0.1:8080 ./public/index.php');
+  exec('php -S 127.0.0.1:8080 -t .');
 } else {
   if(!isset($argv[1])) {
     throw new Exception("NoCommandException: you might send a command to execute");

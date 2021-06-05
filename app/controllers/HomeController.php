@@ -2,7 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Lib\View;
+use App\Utils\View;
+use App\Utils\BaseController;
 
 class HomeController extends BaseController {
 

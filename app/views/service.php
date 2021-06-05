@@ -1,5 +1,5 @@
 <?php
-use App\Lib\View;
+use App\Utils\View;
 ?>
 <?= View::load('layouts/header')?>
 
