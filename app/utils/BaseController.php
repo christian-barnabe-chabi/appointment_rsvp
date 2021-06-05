@@ -8,7 +8,7 @@ abstract class BaseController {
   protected $request;
   function __construct()
   {
-    $this->request = Request::request();
+    $this->request = new Request();
   }
 }
 

@@ -9,7 +9,7 @@ class Route {
 
     $routeToMatch = preg_replace('/(\{\w+\})/', '(.+)', $route);
     $routeToMatch = preg_replace('/\//', '\/', $routeToMatch);
-    $routePattern = '/'.$routeToMatch.'/i';
+    $routePattern = '/'.$routeToMatch.'$/i';
 
     if(preg_match($routePattern, Request::uri(), $match)) {
       array_shift($match);
